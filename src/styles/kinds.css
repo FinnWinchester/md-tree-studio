@@ -1,0 +1,9 @@
+/* Colour per file kind, shared by FileBadge and FileTypeIcon through --c. */
+.kind-code { --c: var(--c-code); }
+.kind-style { --c: var(--c-style); }
+.kind-markup { --c: var(--c-markup); }
+.kind-data { --c: var(--c-data); }
+.kind-doc { --c: var(--c-doc); }
+.kind-image { --c: var(--c-image); }
+.kind-config { --c: var(--c-config); }
+.kind-new { --c: var(--accent); }
